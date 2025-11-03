@@ -1,0 +1,20 @@
+{
+  "name": "finbot",
+  "version": "1.0.0",
+  "description": "A Gemini-powered financial management chatbot",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@google/generative-ai": "^0.2.0"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
